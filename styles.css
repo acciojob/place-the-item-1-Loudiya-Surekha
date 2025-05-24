@@ -1,2 +1,32 @@
+.holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
 
-/* Your CSS Code here. */
+.item {
+  flex: 0 1 200px;
+  margin: 5px 0;
+  background-color:green;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.item-1 {
+  flex: 0 1 200px;
+  margin: 5px 0;
+  background-color:red;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.item-2{
+  flex: 0 1 200px;
+  margin: 5px 0;
+  background-color:blue;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
